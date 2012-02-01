@@ -1,0 +1,101 @@
+2012/01/14 12:11:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php:477
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(262): CController->missingAction('page')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(277): CController->run('page')
+#2 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('site/page')
+#3 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/webshop/index.php?r=site/page&view=about
+2012/01/14 12:11:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php:477
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(262): CController->missingAction('contact')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(277): CController->run('contact')
+#2 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('site/contact')
+#3 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/webshop/index.php?r=site/contact
+2012/01/14 12:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php:477
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(262): CController->missingAction('login')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(277): CController->run('login')
+#2 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('site/login')
+#3 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/webshop/index.php?r=site/login
+2012/01/14 12:13:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php:477
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(262): CController->missingAction('login')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(277): CController->run('login')
+#2 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('site/login')
+#3 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/webshop/index.php?r=site/login
+2012/01/14 12:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php:477
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(262): CController->missingAction('login')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(277): CController->run('login')
+#2 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('site/login')
+#3 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/webshop/index.php?r=site/login
+2012/01/14 12:15:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php:477
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(262): CController->missingAction('login')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(277): CController->run('login')
+#2 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('site/login')
+#3 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/webshop/index.php?r=site/login
+2012/01/14 12:15:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php:477
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(262): CController->missingAction('login')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(277): CController->run('login')
+#2 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('site/login')
+#3 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/webshop/index.php?r=site/login
+2012/01/14 12:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "catalog/index".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('catalog/index')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/webshop/catalog/index
+2012/01/14 12:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "catalog/index".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('catalog/index')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/webshop/catalog/index
+2012/01/14 12:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "catalog".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php:477
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(262): CController->missingAction('catalog')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(277): CController->run('catalog')
+#2 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('site/catalog')
+#3 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/webshop/site/catalog
+2012/01/14 12:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('index')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/webshop/index
+2012/01/14 12:46:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "catalog".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('catalog')
+#1 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/webshop/catalog
+2012/01/14 12:49:02 [error] [exception.CException] exception 'CException' with message 'CatalogController cannot find the requested view "index".' in /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php:875
+Stack trace:
+#0 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(779): CController->renderPartial('index', NULL, true)
+#1 /home/allergic/sellpo/src/webshop/protected/controllers/CatalogController.php(12): CController->render('index')
+#2 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/actions/CInlineAction.php(50): CatalogController->actionIndex()
+#3 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#4 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#5 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(277): CController->run('')
+#7 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/web/CWebApplication.php(136): CWebApplication->runController('catalog')
+#8 /home/allergic/sellpo/soft/yii-1.1.8.r3324/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /home/allergic/sellpo/src/webshop/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/webshop/catalog
