@@ -10,4 +10,9 @@ defined('YII_DEBUG') or define('YII_DEBUG',true);
 defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
 
 require_once($yii);
+// sellpo classes
+$sellpo = dirname(__FILE__).'/protected/Sellpo/webshop.php';
+require_once($sellpo);
+
+
 Yii::createWebApplication($config)->run();

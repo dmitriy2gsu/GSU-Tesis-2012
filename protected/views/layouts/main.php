@@ -17,11 +17,13 @@
 	<div id="mainmenu">
 		<?php echo CHtml::link('Main',array('/'));?>
 		<?php echo CHtml::link('Catalog',array('catalog/'));?>
-	</div><!-- mainmenu -->
-
-	<?php echo $content; ?>
-
-</div><!-- page -->
+	</div>
+	<div id="sp-categories">
+	<?php $this->widget('CategoriesWidget');?>
+	</div>
+	<!-- Something strange here in eclipse 3.7 -->
+	<?php echo $content;?>
+	<!-- page -->
 
 </body>
 </html>
